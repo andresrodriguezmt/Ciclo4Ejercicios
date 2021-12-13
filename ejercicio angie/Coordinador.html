@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="Validaciones.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <select type="text" id="zona" class="form-control" required>
+        <option selected hidden value="">Seleccione Su Zona</option>
+        <option value="ZONA 1">Zona 1</option>
+        <option value="ZONA 2">Zona 2</option>
+        <option value="ZONA 3">Zona 3</option>
+        <option value="ZONA 4">Zona 4</option>
+        <option value="ZONA 5">Zona 5</option>
+        <option value="ZONA 6">Zona 6</option>
+        <option value="Zona 7">Zona 7</option>
+        <option value="Zona8">Zona 8</option>
+        <option value="Zona9">Zona 9</option>
+        <option value="Zona9">Zona 10</option>
+    </select>
+    <button class="btn" id="BotonBuscar">Buscar</button>
+    <table id="TableCoord">
+        <thead>
+            <th scope="col" class="cord"># Referencia</th>
+            <th scope="col" class="cord">Fecha Registro</th>
+            <th scope="col" class="cord">Estado</th>
+            <th scope="col" class="cord">Asesor </th>
+            <th scope="col" class="cord">Productos</th>
+            <th scope="col" class="cord">Cantidad</th>
+            <th scope="col" class="cord">Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <select type="text" id="status">
+        <option selected hidden value="">Selecciona el estado</option>
+        <Option>Aprobado</Option>
+        <Option>Rechazado</Option>
+        <Option>Pendiente</Option>
+    </select>
+</body>
+
+</html>
